@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Password Generator</title>
+  </head>
+  <body>
+    <div id="generator-container">
+      <div class="password">
+        <input
+          type="text"
+          id="password"
+          placeholder="Click on Generate for new password"
+        />
+        <button>copy</button>
+      </div>
+
+      <div class="range">
+        <input type="range" id="range" min="8" max="24" value="8" />
+        <span>8</span>
+      </div>
+
+      <div class="options">
+        <div class="option">
+          <label for="az">
+            <input type="checkbox" id="az" />
+            <span>a - z</span>
+          </label>
+        </div>
+
+        <div class="option">
+          <label for="AZ">
+            <input type="checkbox" id="AZ" />
+            <span>A - Z</span>
+          </label>
+        </div>
+
+        <div class="option">
+          <label for="09">
+            <input type="checkbox" id="09" />
+            <span>0 - 9</span>
+          </label>
+        </div>
+
+        <div class="option">
+          <label for="char">
+            <input type="checkbox" id="char" />
+            <span>@#$%^</span>
+          </label>
+        </div>
+      </div>
+      <button class="generate">generate</button>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
