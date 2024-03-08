@@ -36,7 +36,7 @@ body {
 }
 
 #password {
-    padding-left: 10px;
+  padding-left: 10px;
 }
 
 button {
@@ -54,40 +54,44 @@ div.range {
 }
 
 div.range {
-    margin-block: 15px;
+  margin-block: 15px;
 }
 
 div.password {
-    overflow: hidden;
-    border-radius: 10px;
+  overflow: hidden;
+  border-radius: 10px;
 }
 
 button.generate {
-    border-radius: 10px;
-    margin-block: 20px;
-    width: 100%;
-    cursor: pointer;
+  border-radius: 10px;
+  margin-block: 20px;
+  width: 100%;
+  cursor: pointer;
 }
 
 div.range span {
-    padding: 10px;
-    margin-left: 15px;
-    min-width: 45px;
-    text-align: center;
-    border-radius: 50%;
-    background-color: mediumpurple;
+  padding: 10px;
+  margin-left: 15px;
+  min-width: 45px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: mediumpurple;
 }
 
 div.options {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
 }
 
 div.options label {
-    display: block;
-    background-color: rgba(0, 0, 0, 0.2);
-    padding: 10px;
-    border-radius: 10px;
-    cursor: pointer;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+input[type='text'] {
+  color: black;
 }
